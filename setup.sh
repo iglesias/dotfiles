@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ln -s `pwd`/.inputrc ~/inputrc
+ln -s `pwd`/inputrc ~/inputrc
