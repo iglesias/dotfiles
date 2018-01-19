@@ -9,3 +9,6 @@ bindkey '^R' history-incremental-search-backward
 # fi
 
 alias matlabci='matlab -nosplash -nodesktop'
+
+# Little trick to avoid automatic renaming of tmux tabs after a name has been set.
+DISABLE_AUTO_TITLE=true
