@@ -8,7 +8,7 @@ bindkey '^R' history-incremental-search-backward
 #   source ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 # fi
 
-plugins=(autojump)
-
-# Little trick to avoid automatic renaming of tmux tabs after a name has been set.
+# Avoid automatic renaming of tmux tabs after a name has been set.
 DISABLE_AUTO_TITLE=true
+
+export GIT_EDITOR=vim
