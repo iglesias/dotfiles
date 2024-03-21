@@ -12,3 +12,6 @@ bindkey '^R' history-incremental-search-backward
 DISABLE_AUTO_TITLE=true
 
 export GIT_EDITOR=vim
+
+# oh-my-zsh
+plugins=(git extract zsh-autosuggestions)
