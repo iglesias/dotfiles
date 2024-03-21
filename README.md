@@ -1,10 +1,3 @@
 # dotfiles
 
-## oh-my-zsh configuration
-
-### Plugins
-
-In the file ~/.zshrc installed with oh-my-zsh, look for the line starting with `plugins=(...)` and substitute it for
-```
-plugins=(git extract vi-mode)
-```
+[Old vimrc](https://gist.github.com/iglesias/37bfaeda41b49b76a9004384300aa874). I've switched from Vundle to pathogen now.
