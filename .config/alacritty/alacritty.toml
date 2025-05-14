@@ -15,3 +15,8 @@ style = "Italic"
 [font.normal]
 family = "Iosevka"
 style = "Regular"
+
+[keyboard]
+bindings = [
+  { key = "Escape", mods = "Control|Shift", action = "ToggleViMode" },
+]
