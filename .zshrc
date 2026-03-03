@@ -14,4 +14,7 @@ DISABLE_AUTO_TITLE=true
 export GIT_EDITOR=vim
 
 # oh-my-zsh
-plugins=(git extract zsh-autosuggestions)
+# plugins=(git extract zsh-autosuggestions)
+
+# Load Completion Initialization only when it is first used and run it
+autoload -Uz compinit && compinit
